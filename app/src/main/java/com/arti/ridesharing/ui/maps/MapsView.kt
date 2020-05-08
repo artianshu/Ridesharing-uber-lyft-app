@@ -1,5 +1,7 @@
 package com.arti.ridesharing.ui.maps
 
-interface MapsView {
+import com.google.android.gms.maps.model.LatLng
 
+interface MapsView {
+    fun showNearByCabs(latlngList: List<LatLng>)
 }
